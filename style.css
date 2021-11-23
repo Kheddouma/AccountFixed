@@ -1,0 +1,23 @@
+.Account {
+  position: fixed;
+  z-index: 15;
+  top: 0.9rem;
+  right: var(--gap);
+}
+
+body {
+  height: 200vh;
+  --gap: 3rem;
+  /**couleur body**/
+  background-color: #262626;
+  /**couleur menu**/
+  --featured-img: linear-gradient(180deg, #fff, #262626);
+  background-position: top 58px center;
+  background-image: radial-gradient(
+      50% 50% at top center,
+      rgba(0, 0, 0, 0.66),
+      #262626
+    ),
+    var(--featured-img);
+  background-size: 120% 2000px, 100% 2000px;
+}
